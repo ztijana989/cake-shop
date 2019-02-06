@@ -1,0 +1,533 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"lsp",
+				"letter-spacing\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"border",
+				"border-right\tproperty"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"border-",
+				"border-left\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"addC",
+				"addClass\t.addClass()"
+			],
+			[
+				"slide",
+				"slideUp\t.slideUp()"
+			],
+			[
+				"act",
+				"active"
+			],
+			[
+				"remove",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"tabs",
+				"tabsContent"
+			],
+			[
+				"site-se",
+				"_site-search-page.scss"
+			],
+			[
+				"mouse",
+				"mouseenter\t.mouseenter()"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"tri",
+				"trigger\t.trigger()"
+			],
+			[
+				"sli",
+				"slideToggle\t.slideToggle()"
+			],
+			[
+				"pre",
+				"prepend\t.prepend()"
+			],
+			[
+				"rem",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"scroll",
+				"scroll-to.js"
+			],
+			[
+				"h",
+				"height\t.height()"
+			],
+			[
+				"fa",
+				"fadeOut\t.fadeOut()"
+			],
+			[
+				"sti",
+				"stickyMenu"
+			],
+			[
+				"site",
+				"siteHeader"
+			],
+			[
+				"d",
+				"sticky-header.js"
+			],
+			[
+				"toggle",
+				"toggleClass\t.toggleClass()"
+			],
+			[
+				"has",
+				"hasClass\t.hasClass()"
+			],
+			[
+				"paren",
+				"parents\t.parents()"
+			],
+			[
+				"togg",
+				"toggleClass\t.toggleClass()"
+			],
+			[
+				"css",
+				"css\t.css() - single"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"td",
+				"td-l\ttext-decoration: line-through;"
+			],
+			[
+				"a",
+				"array\t$… = array (…)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gulp",
+				"Gulp"
+			],
+			[
+				"disabe",
+				"Package Control: Disable Package"
+			],
+			[
+				"j",
+				"JSHint"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"es",
+				"ESLint"
+			],
+			[
+				"esli",
+				"ESLint"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"esl",
+				"ESLint"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"jsli",
+				"JSLint"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"gu",
+				"Gulp"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"oackage",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"pacck",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/crni6/Google Drive/Front end Tijana/Projects/cake-shop/css/main.css",
+		"/C/Users/crni6/Google Drive/Front end Tijana/Projects/cake-shop/index.html",
+		"/C/Users/crni6/Desktop/Front end Tijana/Projects/restaurant-theme/js/plugins.js",
+		"/C/Users/crni6/Desktop/Front end Tijana/Projects/restaurant-theme/js/main.js",
+		"/C/Users/crni6/Desktop/Front end Tijana/Projects/restaurant-theme/css/main.css",
+		"/C/wamp64/bin/apache/apache2.4.33/bin/php.ini",
+		"/C/Users/crni6/AppData/Local/Temp/scp28631/home3/nikolato/public_html/tnt/wp-content/themes/tnt/template-parts/_fc-team-members.php",
+		"/C/Users/crni6/AppData/Local/Temp/Temp1_js.zip/_site/sliders.js",
+		"/C/Users/crni6/AppData/Local/Temp/Temp1_js.zip/_site/menu.js",
+		"/C/Users/crni6/AppData/Local/Temp/Temp1_js.zip/_site/global.js",
+		"/C/Users/crni6/AppData/Local/Temp/Temp1_js.zip/_site/_exampleFile.js",
+		"/C/Users/crni6/AppData/Local/Temp/Temp1_js.zip/main.js",
+		"/C/Users/crni6/Downloads/Hi James,",
+		"/F/Tijana Practice/Practice/campaign/index.html",
+		"/F/Tijana Practice/Practice/campaign/style.css",
+		"/C/Users/crni6/Desktop/RegisterProduct.cshtml",
+		"/C/Users/crni6/AppData/Local/Temp/scp12565/home3/nikolato/public_html/chefman/wp-content/themes/chefman/template-parts/_cbp-compare.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp34805/home3/nikolato/public_html/chefman/wp-content/themes/chefman/template-parts/_cbs-product-club-cta.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp31147/home3/nikolato/public_html/chefman/wp-content/themes/chefman/woocommerce/archive-product.php",
+		"/F/Tijana Practice/Practice/campaign/style.html",
+		"/C/Users/crni6/AppData/Local/Temp/scp11023/home/etondigital/public_html/10-years-in-serbia/dest/css/styles.min.css",
+		"/C/Users/crni6/AppData/Local/Temp/scp05461/home/etondigital/public_html/10-years-in-serbia/header.php",
+		"/F/Tijana Practice/Practice/blog.css",
+		"/F/Tijana Practice/Practice/blog.html",
+		"/F/Tijana Practice/Practice/board.html",
+		"/F/Tijana Practice/Practice/Vezba 4.html",
+		"/F/Tijana Practice/Practice/Vezba 3.html",
+		"/F/Tijana Practice/Practice/Vezba 2.html",
+		"/F/Tijana Practice/Practice/Vezba 1.html",
+		"/C/wamp64/www/testing/wp-content/themes/testing/sass/components/_site-header.scss",
+		"/C/wamp64/www/testing/wp-content/themes/testing/sass/components/_site-navigation.scss",
+		"/C/wamp64/www/hermes/wp-content/themes/hermes/assets/js/_site/verticalScroll.js",
+		"/C/wamp64/www/hermes/wp-content/themes/hermes/assets/js/_site/stickyHeader.js",
+		"/C/wamp64/www/hermes/wp-content/themes/hermes/assets/js/_site/parallax.js",
+		"/C/wamp64/www/hermes/wp-content/themes/hermes/assets/js/_site/svg-scroll.js",
+		"/C/Users/crni6/AppData/Local/Temp/Temp1_Chefman bug fixes.zip/Chefman bug fixes/_blog-single.scss",
+		"/C/Users/crni6/AppData/Local/Temp/Temp1_Chefman bug fixes.zip/Chefman bug fixes/_blog-listing.scss",
+		"/C/Users/crni6/AppData/Local/Temp/Temp1_Chefman bug fixes.zip/Chefman bug fixes/_blog-archive.scss",
+		"/C/Users/crni6/Downloads/example.js",
+		"/C/Users/crni6/AppData/Local/Temp/Temp1_starter_timber.zip/static/fe-homepage/fe-homepage.json",
+		"/C/Users/crni6/AppData/Local/Temp/Temp1_starter_timber.zip/gulpfile.js",
+		"/C/Users/crni6/Desktop/nikolato_cresco.sql",
+		"/C/Users/crni6/AppData/Local/Temp/scp46591/home3/nikolato/public_html/simos/wp-content/themes/simos/style.css.map",
+		"/C/wamp64/www/callboy/wp-content/themes/callboy/sass/base/_base.scss",
+		"/F/In Progress/Parametri/design.js",
+		"/C/Users/crni6/AppData/Local/Temp/scp27928/home3/nikolato/public_html/node-heaven/style.css",
+		"/C/Users/crni6/Desktop/hermes.sql",
+		"/C/Users/crni6/AppData/Local/Temp/scp33966/home3/nikolato/public_html/node-heaven/dist/site.min.js",
+		"/C/Users/crni6/AppData/Local/Temp/scp33477/home3/nikolato/public_html/node-heaven/index.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp45521/home3/nikolato/public_html/node-heaven/form.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp33359/home3/nikolato/public_html/node-heaven/form.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp35791/home3/nikolato/public_html/node-heaven/index.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp51401/home3/nikolato/public_html/node-heaven/style.css",
+		"/C/Users/crni6/AppData/Local/Temp/scp51611/home3/nikolato/public_html/node-heaven/dist/site.min.js",
+		"/C/Users/crni6/AppData/Local/Temp/scp36274/home3/nikolato/public_html/node-heaven/dist/site.min.js",
+		"/C/wamp64/www/olg/wp-content/themes/olg/assets/js/_site/smooth-scroll.js",
+		"/C/Users/crni6/Desktop/index-final.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp10853/home3/nikolato/public_html/node-heaven/registration.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp33970/home3/nikolato/public_html/node-heaven/index.php",
+		"/C/Users/crni6/AppData/Local/Temp/tmpFDF1.tmp.scss",
+		"/C/Users/crni6/AppData/Local/Temp/scp29650/home3/nikolato/public_html/node-heaven/index.html",
+		"/C/Users/crni6/AppData/Local/Temp/scp33321/home3/nikolato/public_html/node-heaven/registration.php",
+		"/C/Users/crni6/AppData/Local/Temp/scp33993/home3/nikolato/public_html/node-heaven/package.json",
+		"/C/Users/crni6/AppData/Local/Temp/scp32994/home3/nikolato/public_html/node-heaven/index backup/fithub.sql",
+		"/C/Users/crni6/Desktop/olg.sql",
+		"/C/wamp64/www/fsdigital/src/styles/sass/style.scss",
+		"/C/wamp64/www/fsdigital/src/styles/sass/_vars/_type.scss",
+		"/F/In Progress/Parametri/smooth-scroll.js",
+		"/C/wamp64/www/fsdigital/src/styles/sass/_vars/_options.scss",
+		"/C/wamp64/www/fsdigital/src/scripts/src/script-with-jquery.js",
+		"/C/wamp64/www/fsdigital/src/scripts/src/fb.js",
+		"/C/wamp64/www/fsdigital/src/scripts/src/jquery.event.move.js",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/assets/js/_site/parallax.js",
+		"/F/In Progress/Parametri/_mixins-master.scss",
+		"/F/Tijana Practice/Practice/share-sale-style.css",
+		"/F/Tijana Practice/Practice/Vezba 5.html",
+		"/C/Users/crni6/AppData/Local/Temp/7zO4AF18385/stylesheet.css",
+		"/C/Users/crni6/AppData/Local/Temp/scp27161/.ftpquota",
+		"/C/Users/crni6/Desktop/hermes1032018(1).sql",
+		"/C/Users/crni6/Desktop/hermes9302018.sql",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/assets/js/_site/form.js",
+		"/C/wamp64/www/justin/wp-content/themes/justin/assets/js/site.dev.js",
+		"/C/wamp64/www/faraday/wp-content/themes/faraday/assets/js/_site/menu.js",
+		"/C/Users/crni6/Desktop/euroblog",
+		"/C/wamp64/www/faraday/wp-content/themes/faraday/assets/js/_site/form.js",
+		"/C/wamp64/www/datamate/wp-content/themes/datamate/assets/js/_plugins/acf-map.js",
+		"/C/wamp64/www/alameda/wp-content/themes/alameda/assets/js/_site/acf-map.js",
+		"/C/wamp64/www/datamate/wp-content/themes/datamate/assets/js/site.dev.js",
+		"/C/wamp64/www/cleanslate/wp-content/themes/cleanslate/assets/js/site.dev.js",
+		"/C/wamp64/www/community-solutions/wp-content/themes/community-solutions/assets/js/site.dev.js",
+		"/C/Users/crni6/Desktop/Kurs.txt",
+		"/C/Users/crni6/Desktop/fithub_24.08.2018 - LibraFire.sql",
+		"/C/Users/crni6/Desktop/fithub-migrate-20180821183130.sql",
+		"/C/wamp64/www/faraday/wp-content/themes/faraday/templates/page-configurator.php",
+		"/C/wamp64/www/faraday/wp-content/themes/faraday/assets/js/_site/configurator.js",
+		"/C/wamp64/www/faraday/wp-content/themes/faraday/assets/js/_site/popup.js",
+		"/C/wamp64/logs/apache_error.log",
+		"/C/wamp64/bin/apache/apache2.4.33/conf/httpd.conf",
+		"/C/wamp64/www/faraday/wp-content/themes/faraday/header.php",
+		"/F/In Progress/Parametri/My VS Code Config file.json",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/archive.php",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/__wp_snippets/__acf-options-page.php",
+		"/C/Users/crni6/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/crni6/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/components/widgets/_component-widget-categories.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/woocommerce/_single-product.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/assets/js/site.js",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/assets/js/_site/sliders.js",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/woocommerce/_checkout.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/woocommerce/content-single-product.php",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/assets/js/_site/perf-scroll.js",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/parts/_buttons.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/footer.php",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/woocommerce/_wishlist.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/woocommerce/_components.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/assets/js/_site/variations.js",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/template-parts/content-post.php",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/parts/_forms.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/.jshintrc",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/woocommerce/_account.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/components/_site-navigation.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/assets/js/_site/menu.js",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/assets/js/_site/tabs.js",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/woocommerce/_products.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/woocommerce/_sidebar.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/components/_component-comments.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/components/_component-share.scss",
+		"/C/wamp64/www/fithub/wp-content/themes/fithub/sass/components/_component-social-sidebar.scss"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
