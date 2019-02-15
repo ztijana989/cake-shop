@@ -96,33 +96,119 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-    /*Global style for headings*/
-    .title-section {
-        font-size: 24px;
-        line-height: 1.1;
-        font-weight: 300;
-        letter-spacing: 0.3px;
-        color: #f29898;
-    }
-    
-    /*Global style for paragraphs*/
+/*Global style for headings*/
+.title-section {
+    font-size: 24px;
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    color: #f29898;
+}
 
-    p {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #613d3d;
-        margin: 0 0 25px;
-    }
+/*Global style for paragraphs*/
 
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #613d3d;
+    margin: 0 0 25px;
+}
 
+a {
+    text-decoration: none;
+}
 
+img {
+    max-width: 100%;
+}
 
+.header {
+    position: relative;
+    padding: 10px 15px;
+}
 
+.nav {
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}   
 
+.burger {
+    display: inline-block;
+    position: relative;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+    height: 25px;
+    width: 35px;
+}
 
+.burger span,
+.burger::before,
+.burger::after {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background-color: #f29898;
+    display: block;
+    transition: 0.2s ease-in-out;
+}
+
+.burger::before,
+.burger::after {
+    content: '';
+}
+
+.burger::before {
+    top: 0;
+}
+
+.burger::after {
+    bottom: 0;
+}
+
+.burger span,
+.burger span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger.open span {
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.burger.open span:nth-child(2) {
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.burger.open::before,
+.burger.open::after {
+    width: 0;
+}
 
 
 
