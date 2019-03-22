@@ -58,4 +58,16 @@ $(document).ready(function () {
 	    }
 	  ]
 	});
+
+	$('.js-testimonial-slider').slick({
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		speed: 1500,
+		autoplay: true,
+		autoplayspeed: 2000,
+		arrows: false,
+		dots: true,
+		fade: true,
+	});
 });

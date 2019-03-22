@@ -603,7 +603,7 @@ img {
 
 @media only screen and (min-width: 992px) {
     .section-hero-slide {
-        min-height: 70vh;
+        min-height: 88vh;
     }
 
     .section-hero__title {
@@ -840,6 +840,110 @@ img {
     .section-about-box {
         width: 50%;
         margin-bottom: 0;
+    }
+}
+
+/*Section Testimonials*/
+.section-testimonials {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.section-testimonial-slider {
+    padding: 80px 0 50px;
+    color: #fff;
+    position: relative;
+    background:
+    radial-gradient(black 0.01%, transparent 16%) 0 0,
+    radial-gradient(black 0.01%, transparent 16%) 4px 4px,
+    radial-gradient(rgba(255,255,255,.01) 15%, transparent 80%) 0 1px,
+    radial-gradient(rgba(255,255,255,.01) 15%, transparent 80%) 4px 4px;
+    background-size: 8px 8px;
+    background-color: #59dddd;
+}
+
+.testimonials-slide__holder {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.section-testimonial-slider::before {
+    content: "\e903";
+    font-family: 'icomoon';
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonials-slide-title {
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    text-align: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 0 30px;
+}
+
+.testimonials-slide-title span {
+    padding: 0 20px;
+}
+
+.testimonials-slide-title::before,
+.testimonials-slide-title::after {
+    content: '';
+    position: relative;
+    width: 25px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.testimonials-slide-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.03em;
+    line-height: 1.3;
+    margin: 25px auto;
+}
+
+@media only screen and (min-width: 992px) {
+    .section-testimonial-slider {
+        padding: 140px 0;
+    }
+
+    .section-testimonial-slider::before {
+        font-size: 55px;
+        top: 55px;
+    }
+
+    .testimonials-slide-title {
+        font-size: 28px;
+        letter-spacing: 0.03em;
+    }
+
+    .testimonials-slide-title span {
+        padding: 0 33px;
+    }
+
+    .testimonials-slide-title::before,
+    .testimonials-slide-title::after {
+        width: 42px;
+    }
+
+    .testimonials-slide-text {
+        font-size: 24px;
+        line-height: 1.5;
     }
 }
 
