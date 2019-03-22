@@ -10,12 +10,13 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon1.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon1.ico">
   <!-- Place favicon.ico in the root directory -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,600i,700|Rochester" rel="stylesheet">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/plugins/slick-slider.css">
+  <link rel="stylesheet" type="text/css" href="css/plugins/fancybox.css" />
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -159,23 +160,55 @@
 
 			<section class="section-gallery">
 				<div class="container">
-					<h4 class="title-section">GALLERY</h4>
+					<h4 class="title-section"><span>GALLERY</span></h4>
 					<div class="section-tabs">
-						<a href="index.html">Most Popular</a>
-						<a href="index.html">Wedding</a>
-						<a href="index.html">Kids</a>
-						<a href="index.html">Cookies</a>
+						<a href="index.html" class="js-tab active" data-tab="1">Most Popular</a>
+						<a href="index.html" class="js-tab " data-tab="2">Wedding</a>
+						<a href="index.html" class="js-tab " data-tab="3">Kids</a>
+						<a href="index.html" class="js-tab " data-tab="4">Cookies</a>
 					</div>
 				</div>
-				<div class="section-images">
-					<a href="#"><img src="img/image_1.png"></a>
-					<a href="#"><img src="img/image_2.png"></a>
-					<a href="#"><img src="img/image_3.png"></a>
-					<a href="#"><img src="img/image_4.png"></a>
-					<a href="#"><img src="img/image_5.png"></a>
-					<a href="#"><img src="img/image_6.png"></a>
-					<a href="#"><img src="img/image_7.png"></a>
-					<a href="#"><img src="img/image_8.png"></a>
+				<div class="container section-images-holder">
+					<div class="section-images active" data-box="1">
+						<a href="img/image_1_big.jpg" data-fancybox="gallery-1" class="section-images-link"><img src="img/image_1.png"></a>
+						<a href="img/image_2_big.jpg" data-fancybox="gallery-1" class="section-images-link"><img src="img/image_2.png"></a>
+						<a href="img/image_3_big.jpg" data-fancybox="gallery-1" class="section-images-link"><img src="img/image_3.png"></a>
+						<a href="img/image_4_big.jpg" data-fancybox="gallery-1" class="section-images-link"><img src="img/image_4.png"></a>
+						<a href="img/image_5_big.jpg" data-fancybox="gallery-1" class="section-images-link"><img src="img/image_5.png"></a>
+						<a href="img/image_6_big.jpg" data-fancybox="gallery-1" class="section-images-link"><img src="img/image_6.png"></a>
+						<a href="img/image_7_big.jpg" data-fancybox="gallery-1" class="section-images-link"><img src="img/image_7.png"></a>
+						<a href="img/image_8_big.jpg" data-fancybox="gallery-1" class="section-images-link"><img src="img/image_8.png"></a>
+					</div>
+					<div class="section-images" data-box="2">
+						<a href="img/image_8_big.jpg" data-fancybox="gallery-2" class="section-images-link"><img src="img/image_8.png"></a>
+						<a href="img/image_2_big.jpg" data-fancybox="gallery-2" class="section-images-link"><img src="img/image_2.png"></a>
+						<a href="img/image_1_big.jpg" data-fancybox="gallery-2" class="section-images-link"><img src="img/image_1.png"></a>
+						<a href="img/image_4_big.jpg" data-fancybox="gallery-2" class="section-images-link"><img src="img/image_4.png"></a>
+						<a href="img/image_6_big.jpg" data-fancybox="gallery-2" class="section-images-link"><img src="img/image_6.png"></a>
+						<a href="img/image_5_big.jpg" data-fancybox="gallery-2" class="section-images-link"><img src="img/image_5.png"></a>
+						<a href="img/image_3_big.jpg" data-fancybox="gallery-2" class="section-images-link"><img src="img/image_3.png"></a>
+						<a href="img/image_7_big.jpg" data-fancybox="gallery-2" class="section-images-link"><img src="img/image_7.png"></a>
+					</div>
+					<div class="section-images" data-box="3">
+						<a href="img/image_2_big.jpg" data-fancybox="gallery-3" class="section-images-link"><img src="img/image_2.png"></a>
+						<a href="img/image_1_big.jpg" data-fancybox="gallery-3" class="section-images-link"><img src="img/image_1.png"></a>
+						<a href="img/image_4_big.jpg" data-fancybox="gallery-3" class="section-images-link"><img src="img/image_4.png"></a>
+						<a href="img/image_3_big.jpg" data-fancybox="gallery-3" class="section-images-link"><img src="img/image_3.png"></a>
+						<a href="img/image_5_big.jpg" data-fancybox="gallery-3" class="section-images-link"><img src="img/image_5.png"></a>
+						<a href="img/image_6_big.jpg" data-fancybox="gallery-3" class="section-images-link"><img src="img/image_6.png"></a>
+						<a href="img/image_8_big.jpg" data-fancybox="gallery-3" class="section-images-link"><img src="img/image_8.png"></a>
+						<a href="img/image_7_big.jpg" data-fancybox="gallery-3" class="section-images-link"><img src="img/image_7.png"></a>
+					</div>
+					<div class="section-images" data-box="4">
+						<a href="img/image_3_big.jpg" data-fancybox="gallery-4" class="section-images-link"><img src="img/image_3.png"></a>
+						<a href="img/image_4_big.jpg" data-fancybox="gallery-4" class="section-images-link"><img src="img/image_4.png"></a>
+						<a href="img/image_5_big.jpg" data-fancybox="gallery-4" class="section-images-link"><img src="img/image_5.png"></a>
+						<a href="img/image_6_big.jpg" data-fancybox="gallery-4" class="section-images-link"><img src="img/image_6.png"></a>
+						<a href="img/image_7_big.jpg" data-fancybox="gallery-4" class="section-images-link"><img src="img/image_7.png"></a>
+						<a href="img/image_1_big.jpg" data-fancybox="gallery-4" class="section-images-link"><img src="img/image_1.png"></a>
+						<a href="img/image_2_big.jpg" data-fancybox="gallery-4" class="section-images-link"><img src="img/image_2.png"></a>
+						<a href="img/image_8_big.jpg" data-fancybox="gallery-4" class="section-images-link"><img src="img/image_8.png"></a>
+					</div>
 				</div>
 			</section> <!-- .section-gallery -->
 

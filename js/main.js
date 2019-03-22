@@ -59,6 +59,7 @@ $(document).ready(function () {
 	  ]
 	});
 
+	// Testimonials Slider
 	$('.js-testimonial-slider').slick({
 		infinite: true,
 		slidesToShow: 1,
@@ -69,5 +70,21 @@ $(document).ready(function () {
 		arrows: false,
 		dots: true,
 		fade: true,
+	});
+
+	// Fancybox
+	$('[data-fancybox="gallery-1"]').fancybox({});
+	$('[data-fancybox="gallery-2"]').fancybox({});
+	$('[data-fancybox="gallery-3"]').fancybox({});
+	$('[data-fancybox="gallery-4"]').fancybox({});
+
+	// Tabs
+	$('.js-tab').on('click', function(e) {
+		e.preventDefault();
+		var currentTab = $(this).data('tab');
+		if (!$(this).hasClass('active')) {
+			$(this).addClass('active').siblings('.js-tab').removeClass('active');
+		}
+		$('.section-images-holder').find(`[data-box='${currentTab}']`).addClass('active').siblings('.section-images').removeClass('active');
 	});
 });
