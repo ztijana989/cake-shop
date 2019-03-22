@@ -1034,6 +1034,7 @@ img {
 /*Section Testimonials*/
 .section-testimonials {
     padding-top: 30px;
+    padding-bottom: 0;
     text-align: center;
 }
 
@@ -1171,6 +1172,30 @@ img {
     font-weight: 300;
 }
 
+.footer-box.contact-us a {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    color: #f29898;
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    padding-left: 30px;
+}
+
+.footer-box.contact-us a::before {
+    position: absolute;
+    font-size: 19px;
+    color: #fff;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.footer-box.contact-us a:hover {
+    color: #fff;
+}
+
 .footer-box-title {
     font-size: 18px;
     line-height: 1.1;
@@ -1206,6 +1231,37 @@ img {
     display: block;
 }
 
+.follow-us-holder {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+
+.follow-us-holder a {
+    color: #fff;
+    display: inline-block;
+    margin-right: 22px;
+}
+
+.follow-us-holder a::before {
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    transition: 0.2s ease-in-out;
+}
+
+.follow-us-holder a:last-of-type {
+    margin-right: 0;
+}
+
+.follow-us-holder a:hover::before {
+    color: #f29898;
+    transform: scale(1.15);
+}
+
 @media only screen and (min-width: 992px) {
     .footer-top {
         padding: 70px 0 20px;
@@ -1213,7 +1269,7 @@ img {
 
     .footer-box-title {
         font-size: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
     }
 }
 
