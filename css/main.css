@@ -1175,6 +1175,7 @@ img {
 }
 
 .footer-box.contact-us a {
+    font-family: 'Poppins', serif;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.03em;
@@ -1266,18 +1267,24 @@ img {
 
 @media only screen and (min-width: 992px) {
     .footer-top {
-        padding: 70px 0 20px;
+        padding: 50px 0 30px;
         text-align: left;
     }
 
+
     .footer-box {
-        width: 28%;
+        width: 29%;
         padding: 20px 30px;
         border-right: 1px solid #5e4848;
     }
 
+    .footer-logo {
+        width: 21%;
+        border-right: 0;
+    }
+
     .footer-box:last-of-type {
-        width: 16%;
+        width: 20%;
         border-right: 0;
     }
 
