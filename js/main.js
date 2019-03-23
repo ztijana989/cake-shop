@@ -102,4 +102,17 @@ $(document).ready(function () {
 		$('.popup-wrapper').removeClass('popup-open');
 		$('body').removeClass('popup-is-opened')
 	});
+
+	// Scroll To
+	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+	    e.preventDefault();
+	    var target = this.hash,
+	        $target = $(target);
+
+	    $('html, body').stop().animate( {
+	      'scrollTop': $target.offset().top+10
+	    }, 900, 'swing', function () {
+	      window.location.hash = target;
+	    } );
+	  } );
 });
