@@ -87,4 +87,19 @@ $(document).ready(function () {
 		}
 		$('.section-images-holder').find(`[data-box='${currentTab}']`).addClass('active').siblings('.section-images').removeClass('active');
 	});
+
+	// Popup
+	$('.js-popup-trigger').on('click', function() {
+		if (!$('.popup').hasClass('open')) {
+			$('.popup').addClass('open');
+			$('.popup-wrapper').addClass('popup-open');
+			$('body').addClass('popup-is-opened')
+		}
+	});
+
+	$('.popup-close').on('click', function() {
+		$('.popup').removeClass('open');
+		$('.popup-wrapper').removeClass('popup-open');
+		$('body').removeClass('popup-is-opened')
+	});
 });

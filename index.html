@@ -70,7 +70,7 @@
 					<h2 class="title-section section-choose-title"><span>CHOOSE ONE FOR YOU</span></h2>
 					<div class="row">
 						<div class="section-choose-slider js-choose-slider">
-							<a href="#" class="section-choose-box section-choose-slide">
+							<a href="javacript:;" class="section-choose-box section-choose-slide js-popup-trigger">
 								<div class="section-choose-img">
 									<img src="img/cake_1.png" alt="">
 									<span class="section-choose-img-text">Order now</span>
@@ -81,7 +81,7 @@
 									<span>$35</span>
 								</div>
 							</a>
-							<a href="#" class="section-choose-box section-choose-slide">
+							<a href="javacript:;" class="section-choose-box section-choose-slide js-popup-trigger">
 								<div class="section-choose-img">
 									<img src="img/cake_2.png" alt="">
 									<span class="section-choose-img-text">Order now</span>
@@ -92,7 +92,7 @@
 									<span>$5</span>
 								</div>
 							</a>
-							<a href="#" class="section-choose-box section-choose-slide">
+							<a href="javacript:;" class="section-choose-box section-choose-slide js-popup-trigger">
 								<div class="section-choose-img">
 									<img src="img/cake_3.png" alt="">
 									<span class="section-choose-img-text">Order now</span>
@@ -103,7 +103,7 @@
 									<span>$18</span>
 								</div>
 							</a>
-							<a href="#" class="section-choose-box section-choose-slide">
+							<a href="javacript:;" class="section-choose-box section-choose-slide js-popup-trigger">
 								<div class="section-choose-img">
 									<img src="img/cake_4.png" alt="">
 									<span class="section-choose-img-text">Order now</span>
@@ -114,7 +114,7 @@
 									<span>$30</span>
 								</div>
 							</a>
-							<a href="#" class="section-choose-box section-choose-slide">
+							<a href="#" class="section-choose-box section-choose-slide js-popup-trigger">
 								<div class="section-choose-img">
 									<img src="img/cake_2.png" alt="">
 									<span class="section-choose-img-text">Order now</span>
@@ -125,7 +125,7 @@
 									<span>$5</span>
 								</div>
 							</a>
-							<a href="#" class="section-choose-box section-choose-slide">
+							<a href="#" class="section-choose-box section-choose-slide js-popup-trigger">
 								<div class="section-choose-img">
 									<img src="img/cake_3.png" alt="">
 									<span class="section-choose-img-text">Order now</span>
@@ -280,6 +280,43 @@
 				</small>
 			</div>
 		</footer> <!-- .footer -->
+		<div class="popup-wrapper">
+			<div class="popup">
+				<a href="javascript:;" class="popup-close"></a>
+				<div class="popup-holder">
+					<div><img src="img/logo.png" alt="form-logo"></div>
+					<h3 class="popup-title">Order now</h3>
+					<form action="">
+						<div role="group">
+							<h4 class="form-group-title">Order information</h4>
+							<select>
+								<option value="Choose cake" selected disabled hidden>Choose cake</option>
+								<option value="Healt cake">Healt Cake</option>
+								<option value="Kids cake">Kids cake</option>
+								<option value="Birthday cake">Birthday cake</option>
+							</select>
+							<select>
+								<option value="Size" selected disabled hidden>Size</option>
+								<option value="Small">Small</option>
+								<option value="Medium">Medium</option>
+								<option value="Large">Large</option>
+							</select>
+							<input type="text" placeholder="Address">
+							<input type="text" placeholder="Enter date">
+						</div>
+						<div role="group">
+							<h4 class="form-group-title">Contact person</h4>
+							<input type="text" placeholder="First name">
+							<input type="text" placeholder="Last name">
+							<input type="email" placeholder="Email address">
+							<input type="text" placeholder="Phone number">
+							<textarea placeholder="Details or Instructions"></textarea>
+							<button class="btn-submit">Submit order</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
 
 		<!-- Scripts placed at the end of body for faster site load -->
 		<script src="js/vendor/modernizr-3.6.0.min.js"></script>
